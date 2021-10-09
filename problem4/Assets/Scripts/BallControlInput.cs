@@ -11,7 +11,7 @@ public class BallControlInput : MonoBehaviour
     public KeyCode leftButton = KeyCode.LeftArrow;
     public KeyCode rightButton = KeyCode.RightArrow;
     public float speed = 10.0f;
-    public float yBoundary = 0.0f;
+    public float yBoundary = 10.0f;
     
     private Rigidbody2D rigidBody2D;
 
